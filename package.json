@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/RajceP/on-the-code/issues"
   },
   "dependencies": {
     "gatsby": "^2.24.80",
@@ -25,6 +25,7 @@
     "gatsby-transformer-remark": "^2.8.42",
     "gatsby-transformer-sharp": "^2.5.18",
     "prismjs": "^1.22.0",
+    "prop-types": "^15.7.2",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
@@ -32,9 +33,17 @@
     "typeface-montserrat": "1.1.13"
   },
   "devDependencies": {
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.13.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-react-hooks": "^4.1.2",
     "prettier": "2.1.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://blog.rajtslegr.com",
   "keywords": [
     "gatsby"
   ],
@@ -42,7 +51,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/RajceP/on-the-code.git"
   },
   "scripts": {
     "build": "gatsby build",
